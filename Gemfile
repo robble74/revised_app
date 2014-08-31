@@ -23,9 +23,9 @@ group :assets do
 	# gem 'therubyracer',  platforms: :ruby
 end
 
-group :test do
-	gem 'capybara'
-end
+
+	gem 'capybara', '1.1.2', :group => "test"
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
